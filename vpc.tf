@@ -1,6 +1,6 @@
 module "vpc" {
     source  = "app.terraform.io/seanc-tf015-training/network/google"
-    version = "~> 3.0"
+    version = "= 2.5.0"
 
     project_id   = var.project
     network_name = "gaurav-network"
